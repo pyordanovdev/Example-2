@@ -24,41 +24,19 @@ html{
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(screenshots/ipad-tablet-technology-touch.jpg);
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center bottom;
     position:relative;
 }
-video{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    min-width:100%;
-    min-height:100%;
-    width:auto;
-    height:auto;
-    z-index:1;
-}
-.box{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    z-index:2;
-    background-color:rgba(0,0,0,0.4);
-}
-nav, .hero-text-box{
-    position:relative;
-    z-index:3;
-}
+
 nav{
     overflow:hidden;
     height:12%; 
     background-color:#fff;
+    box-shadow:0 1px 1px #dddddd;
 }
 .logo-box{
     float:left;
@@ -72,22 +50,23 @@ nav{
 .main-nav {
     float:right;
     list-style:none;
-    margin-top:26px;
+    margin-top:25px;
     /*margin-top:45px;*/
 }
 .main-nav li {
     display:inline-block;
-    margin-right:60px;
+    margin-right:50px;
 }
 .main-nav li a:link,
 .main-nav li a:visited{
     text-decoration:none;
-    color:#222;
+    color:#555;
     /*color:#fff;*/
     text-transform:uppercase;
-    font-size:68%;
-    font-weight:700;
+    font-size:60%;
+    font-weight:800;
     padding:5px;
+    letter-spacing:0.2px;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
@@ -101,7 +80,10 @@ nav{
     background-color:rgb(159,177,0);
     color:#fff !important ;
     border-radius:4px;
+    font-weight:700 !important;
+    font-size:68% !important;
     transition:border 0.2s, background-color 0.2s;
+    box-shadow:1px 1px 1px rgb(159,177,0);
 }
 .btn-contact:hover,
 .btn-contact:active{
@@ -120,8 +102,8 @@ nav{
 h1{
     color:#fff;
     text-transform:uppercase;
-    letter-spacing:3px;
-    word-spacing:3px;
+    letter-spacing:2px;
+    word-spacing:6px;
     font-size:250%;
 }
 .long-copy{
@@ -132,8 +114,9 @@ h1{
 .btn-full:link,
 .btn-full:visited{
     text-decoration:none;
-    padding:10px 20px;
+    padding:10px 17px;
     color:#fff;
+    background-color:rgba(255,255,255,0.5);
     background-color:rgb(159,177,0);
     border:1px solid rgb(159,177,0);
     border-radius:4px;
