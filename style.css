@@ -24,8 +24,9 @@ html{
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(screenshots/ipad-tablet-technology-touch.jpg);
     height:100vh;
+    background-repeat:no-repeat;
     background-size:cover;
     background-position:center bottom;
     position:relative;
@@ -71,7 +72,7 @@ nav{
 .main-nav {
     float:right;
     list-style:none;
-    margin-top:30px;
+    margin-top:26px;
     /*margin-top:45px;*/
 }
 .main-nav li {
