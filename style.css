@@ -1,0 +1,171 @@
+/* ------------------ */
+/*    Basic Setup    */
+/* ----------------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Raleway', sans-serif; 
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight:300;
+    color:#555;
+    background-color:#fff;
+    text-rendering:optimizeLegibility;
+    overflow:hidden;
+}
+
+/* ------------------ */
+/*      HEADER       */
+/* ----------------- */
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center bottom;
+    position:relative;
+}
+video{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    z-index:1;
+}
+.box{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:2;
+    background-color:rgba(0,0,0,0.4);
+}
+nav, .hero-text-box{
+    position:relative;
+    z-index:3;
+}
+nav{
+    overflow:hidden;
+    height:12%; 
+    background-color:#fff;
+}
+.logo-box{
+    float:left;
+    /*margin-top:30px;*/
+    margin-top:10px;
+    margin-left:70px;
+    background-color:#fff;
+    border-radius:10px;
+    padding:3px;
+}
+.main-nav {
+    float:right;
+    list-style:none;
+    margin-top:30px;
+    /*margin-top:45px;*/
+}
+.main-nav li {
+    display:inline-block;
+    margin-right:60px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration:none;
+    color:#222;
+    /*color:#fff;*/
+    text-transform:uppercase;
+    font-size:68%;
+    font-weight:700;
+    padding:5px;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    /*color:rgb(159,177,0);*/
+    color:#999;
+}
+.btn-contact:link,
+.btn-contact:visited{
+    padding:12px !important ;
+    border:1px solid rgb(159,177,0);
+    background-color:rgb(159,177,0);
+    color:#fff !important ;
+    border-radius:4px;
+    transition:border 0.2s, background-color 0.2s;
+}
+.btn-contact:hover,
+.btn-contact:active{
+    background-color:rgb(130,160,0);
+    border:1px solid rgb(130,160,0) !important;
+}
+.hero-text-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    padding:2%;
+    text-align:center;
+}
+h1{
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    word-spacing:3px;
+    font-size:250%;
+}
+.long-copy{
+    color:#fff;
+    font-weight:200;
+    margin-bottom:30px;
+}
+.btn-full:link,
+.btn-full:visited{
+    text-decoration:none;
+    padding:10px 20px;
+    color:#fff;
+    background-color:rgb(159,177,0);
+    border:1px solid rgb(159,177,0);
+    border-radius:4px;
+}
+.btn-full:hover,
+.btn-full:active{
+    background-color:rgb(130,160,0);
+    border:1px solid rgb(130,160,0) !important;
+}
+/* EXPERIMENT */
+
+
+.first, .second, .third{
+    font-size:200%;
+    color:#fff;
+    cursor:pointer;
+}
+.box-first, .box-second, .box-third{
+    display:none;
+}
+.icons-box{
+    display:block;
+    margin-top:90px;
+}
+.show{
+    display:block;
+}
+.container{
+    width:80%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:none;
+}
+*/
