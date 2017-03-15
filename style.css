@@ -10,8 +10,6 @@
 html{
     font-size:20px;
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Raleway', sans-serif; 
-    /*font-family: 'Montserrat', sans-serif;*/
     font-weight:300;
     color:#555;
     background-color:#fff;
@@ -24,25 +22,25 @@ html{
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)),url(screenshots/ipad-tablet-technology-touch.jpg);
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center bottom;
-    position:relative;
+    position:relative; 
 }
 
 nav{
     overflow:hidden;
-    height:12%; 
+    height:13%; 
     background-color:#fff;
-    box-shadow:0 1px 1px #dddddd;
+    box-shadow:0 1px 1px #555;
 }
 .logo-box{
     float:left;
     /*margin-top:30px;*/
-    margin-top:10px;
-    margin-left:70px;
+    margin-top:15px;
+    margin-left:60px;
     background-color:#fff;
     border-radius:10px;
     padding:3px;
@@ -50,39 +48,39 @@ nav{
 .main-nav {
     float:right;
     list-style:none;
-    margin-top:25px;
+    margin-top:35px;
     /*margin-top:45px;*/
 }
 .main-nav li {
     display:inline-block;
-    margin-right:50px;
+    margin-right:45px;
 }
 .main-nav li a:link,
 .main-nav li a:visited{
     text-decoration:none;
-    color:#555;
+    color:rgba(0, 0, 0, 0.62);
     /*color:#fff;*/
     text-transform:uppercase;
     font-size:60%;
-    font-weight:800;
+    font-weight:700;
     padding:5px;
-    letter-spacing:0.2px;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
     /*color:rgb(159,177,0);*/
     color:#999;
+    
 }
 .btn-contact:link,
 .btn-contact:visited{
-    padding:12px !important ;
+    padding:13px !important;
     border:1px solid rgb(159,177,0);
     background-color:rgb(159,177,0);
-    color:#fff !important ;
-    border-radius:4px;
+    color:#fff !important;
+    border-radius:50px;
     font-weight:700 !important;
     font-size:68% !important;
-    transition:border 0.2s, background-color 0.2s;
+    transition:background-color ease-in 0.2s;
     box-shadow:1px 1px 1px rgb(159,177,0);
 }
 .btn-contact:hover,
@@ -103,53 +101,31 @@ h1{
     color:#fff;
     text-transform:uppercase;
     letter-spacing:2px;
-    word-spacing:6px;
-    font-size:250%;
+    word-spacing:8px;
+    font-size:190% !important;
 }
 .long-copy{
     color:#fff;
-    font-weight:200;
-    margin-bottom:30px;
+    font-size:115%;
+    font-weight:100;
+    margin-bottom:40px;
 }
 .btn-full:link,
 .btn-full:visited{
     text-decoration:none;
-    padding:10px 17px;
+    padding:12px 25px;
     color:#fff;
-    background-color:rgba(255,255,255,0.5);
-    background-color:rgb(159,177,0);
-    border:1px solid rgb(159,177,0);
-    border-radius:4px;
+    font-size:70%;
+    text-transform:uppercase;
+    background-color: #20ad65;
+    border:1px solid #20ad65;
+    border-radius:5px;
+    font-weight:700;
+    box-shadow:1.5px 1.5px 2px #333;
+    transition:background-color ease-in 0.2s,border ease-in 0.2s;
 }
 .btn-full:hover,
 .btn-full:active{
     background-color:rgb(130,160,0);
     border:1px solid rgb(130,160,0) !important;
 }
-/* EXPERIMENT */
-
-
-.first, .second, .third{
-    font-size:200%;
-    color:#fff;
-    cursor:pointer;
-}
-.box-first, .box-second, .box-third{
-    display:none;
-}
-.icons-box{
-    display:block;
-    margin-top:90px;
-}
-.show{
-    display:block;
-}
-.container{
-    width:80%;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    display:none;
-}
-*/
