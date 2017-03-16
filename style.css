@@ -16,78 +16,98 @@ html{
     text-rendering:optimizeLegibility;
     overflow:hidden;
 }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* ------------------ */
 /*      HEADER       */
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url(screenshots/ipad-tablet-technology-touch.jpg);
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center bottom;
     position:relative; 
 }
-
+/* NAVIGATION */
 nav{
-    overflow:hidden;
-    height:13%; 
     background-color:#fff;
-    box-shadow:0 1px 1px #555;
+    height:15%;
+    box-shadow:1px 1px 1px #666;
+    
 }
 .logo-box{
     float:left;
-    /*margin-top:30px;*/
-    margin-top:15px;
-    margin-left:60px;
-    background-color:#fff;
-    border-radius:10px;
-    padding:3px;
+    width:25%;
+    margin-top:43px;
+    padding-left:28px;
 }
-.main-nav {
-    float:right;
+.main-nav{
+    float:left;
+    width:50%;
     list-style:none;
-    margin-top:35px;
-    /*margin-top:45px;*/
+    text-align:left;
+    margin-top:48px;
+    padding-left:25px;
 }
-.main-nav li {
+.main-nav li{
     display:inline-block;
-    margin-right:45px;
+    margin-left:38px;
 }
 .main-nav li a:link,
 .main-nav li a:visited{
     text-decoration:none;
-    color:rgba(0, 0, 0, 0.62);
-    /*color:#fff;*/
-    text-transform:uppercase;
     font-size:60%;
-    font-weight:700;
-    padding:5px;
+    font-weight:800;
+    text-transform:uppercase;
+    color:#555;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
-    /*color:rgb(159,177,0);*/
-    color:#999;
-    
+    color:#777;
+}
+.contact-box{
+    width:25%;
+    float:left;
+    margin-top:48px; 
+    display:flex;
+}
+.btn-box{
+    flex:1;
+}
+.number{
+    display:inline-block;
+    flex:1;
+    font-size:70%;
+    font-weight:800;
+    text-align:center;
+    padding-top:5px;
+    color:rgb(159,177,0);
 }
 .btn-contact:link,
 .btn-contact:visited{
-    padding:13px !important;
-    border:1px solid rgb(159,177,0);
-    background-color:rgb(159,177,0);
-    color:#fff !important;
-    border-radius:50px;
-    font-weight:700 !important;
-    font-size:68% !important;
-    transition:background-color ease-in 0.2s;
-    box-shadow:1px 1px 1px rgb(159,177,0);
+    text-decoration:none;
+    padding:7px;
+    text-transform:uppercase;
+    font-size:58%;
+    font-weight:800;
+    border:2px solid rgb(159,177,0);
+    color:rgb(159,177,0);
+    transition:background ease-in-out 200ms, color ease-in-out 200ms;
 }
 .btn-contact:hover,
 .btn-contact:active{
-    background-color:rgb(130,160,0);
-    border:1px solid rgb(130,160,0) !important;
+    background-color:rgb(159,177,0);
+    color:#fff;
+    border:2px solid rgb(159,177,0);
 }
+
+/* HERO-TEXT-BOX */
 .hero-text-box{
     position:absolute;
     top:50%;
@@ -102,30 +122,31 @@ h1{
     text-transform:uppercase;
     letter-spacing:2px;
     word-spacing:8px;
-    font-size:190% !important;
+    font-size:230% !important;
 }
 .long-copy{
     color:#fff;
-    font-size:115%;
+    font-size:110%;
     font-weight:100;
-    margin-bottom:40px;
+    margin-bottom:55px;
 }
 .btn-full:link,
 .btn-full:visited{
     text-decoration:none;
-    padding:12px 25px;
+    padding:13px 20px;
     color:#fff;
     font-size:70%;
     text-transform:uppercase;
-    background-color: #20ad65;
-    border:1px solid #20ad65;
-    border-radius:5px;
+    background-color:rgb(159,177,0);
+    border:1px solid rgb(159,177,0);
+    border-radius:2px;
     font-weight:700;
     box-shadow:1.5px 1.5px 2px #333;
     transition:background-color ease-in 0.2s,border ease-in 0.2s;
 }
 .btn-full:hover,
 .btn-full:active{
-    background-color:rgb(130,160,0);
+    background-color:rgb(110,160,0);
+    color:#fff;
     border:1px solid rgb(130,160,0) !important;
 }
