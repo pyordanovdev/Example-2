@@ -5,11 +5,12 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing:border-box; 
+    font-family:'lato';
 }
 html{
     font-size:20px;
-    font-family: 'Lato', sans-serif;
+    font-family:'Lato', sans-serif;
     font-weight:300;
     color:#555;
     background-color:#fff;
@@ -62,14 +63,14 @@ nav{
 .main-nav li a:link,
 .main-nav li a:visited{
     text-decoration:none;
-    font-size:60%;
-    font-weight:800;
+    font-size:72%;
+    font-weight:400;
     text-transform:uppercase;
     color:#555;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
-    color:#777;
+    color:#888;
 }
 .contact-box{
     width:25%;
@@ -84,7 +85,7 @@ nav{
     display:inline-block;
     flex:1;
     font-size:70%;
-    font-weight:800;
+    font-weight:700;
     text-align:center;
     padding-top:5px;
     color:rgb(159,177,0);
@@ -92,10 +93,10 @@ nav{
 .btn-contact:link,
 .btn-contact:visited{
     text-decoration:none;
-    padding:7px;
+    padding:8px;
     text-transform:uppercase;
-    font-size:58%;
-    font-weight:800;
+    font-size:65%;
+    font-weight:700;
     border:2px solid rgb(159,177,0);
     color:rgb(159,177,0);
     transition:background ease-in-out 200ms, color ease-in-out 200ms;
@@ -126,27 +127,44 @@ h1{
 }
 .long-copy{
     color:#fff;
-    font-size:100%;
-    font-weight:100;
+    font-size:125%;
+    font-weight:300;
     margin-bottom:55px;
 }
 .btn-full:link,
 .btn-full:visited{
     text-decoration:none;
-    padding:13px 20px;
+    padding:13px 16px;
     color:#fff;
-    font-size:70%;
+    font-size:72%;
     text-transform:uppercase;
     background-color:rgb(159,177,0);
     border:1px solid rgb(159,177,0);
     border-radius:2px;
     font-weight:700;
     box-shadow:1.5px 1.5px 2px #333;
-    transition:background-color ease-in 0.2s,border ease-in 0.2s;
+    transition:background-color ease-in 0.2s,border ease-in 0.3s;
 }
 .btn-full:hover,
 .btn-full:active{
     background-color:rgb(110,160,0);
     color:#fff;
     border:1px solid rgb(130,160,0) !important;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    text-decoration:none;
+    color:rgb(159,177,0);
+    font-weight:100;
+    margin-left:0px;
+    font-size:72%;
+    padding:13px 20px;
+    background-color:rgba(255, 255, 255, 0.01);
+    border:1px solid rgb(159,177,0);
+    display:none;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    color:rgb(159,177,0);
+    background-color:#fff;
 }
