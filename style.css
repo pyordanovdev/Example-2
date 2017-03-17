@@ -28,7 +28,7 @@ html{
 /* ----------------- */
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.48),rgba(0, 0, 0, 0.48)),url(screenshots/ipad-tablet-technology-touch.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.47),rgba(0, 0, 0, 0.48)),url(screenshots/ipad-tablet-technology-touch-min.jpg);
     height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
